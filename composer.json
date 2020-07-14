@@ -1,0 +1,33 @@
+{
+  "name": "abenevaut/bedrock-migrations",
+  "type": "library",
+  "description": "Bedrock console cli.",
+  "keywords": [
+    "bedrock",
+    "migrations"
+  ],
+  "license": "GPL-3.0-only",
+  "require": {
+    "php": ">=7.1",
+    "davedevelopment/phpmig": "^1.7"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "abenevaut\\BedrockMigrations\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
